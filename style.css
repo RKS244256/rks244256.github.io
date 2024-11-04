@@ -1,0 +1,15 @@
+body{ background: rgb(63,120,251);
+background: -moz-linear-gradient(90deg, rgba(63,120,251,1) 17%, rgba(252,70,230,1) 75%);
+background: -webkit-linear-gradient(90deg, rgba(63,120,251,1) 17%, rgba(252,70,230,1) 75%);
+background: linear-gradient(90deg, rgba(63,120,251,1) 17%, rgba(252,70,230,1) 75%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f78fb",endColorstr="#fc46e6",GradientType=1);  }
+
+@font-face {
+    font-family: Windows95;
+    src: url(w95fa.woff);
+  }
+
+  p {
+    font-family: Windows95;
+    color: white;
+  }
